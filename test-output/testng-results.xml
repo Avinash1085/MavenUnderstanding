@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5294" started-at="2021-12-07T16:06:21 IST" finished-at="2021-12-07T16:06:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5294" started-at="2021-12-07T16:06:21 IST" finished-at="2021-12-07T16:06:26 IST">
+      <class name="testNGPackage.DateFormatter">
+        <test-method status="PASS" signature="systemSetup()[pri:0, instance:testNGPackage.DateFormatter@df27fae]" name="systemSetup" is-config="true" duration-ms="22051" started-at="2021-12-07T16:05:59 IST" finished-at="2021-12-07T16:06:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemSetup -->
+        <test-method status="PASS" signature="inboxLogin()[pri:0, instance:testNGPackage.DateFormatter@df27fae]" name="inboxLogin" duration-ms="283" started-at="2021-12-07T16:06:21 IST" description="This Test will look for Inbox keyword and click on it." finished-at="2021-12-07T16:06:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inboxLogin -->
+        <test-method status="PASS" signature="email_or_phoneNumberIsertText()[pri:0, instance:testNGPackage.DateFormatter@df27fae]" name="email_or_phoneNumberIsertText" duration-ms="4936" started-at="2021-12-07T16:06:21 IST" description="This Test will search the insert mail id box and enter the mail id and proceed further" depends-on-methods="testNGPackage.DateFormatter.inboxLogin" finished-at="2021-12-07T16:06:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_or_phoneNumberIsertText -->
+      </class> <!-- testNGPackage.DateFormatter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
